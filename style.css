@@ -77,11 +77,12 @@ body{
 }
 
 #contacts{
+    background-attachment: fixed;
     background-color: #041014;
     width: 100vw;
     height: 15vh;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    position: relative;
 }
 
 #contacts #neym{
@@ -92,7 +93,7 @@ body{
 }
 
 #contents{
-    padding: 20px 0;
+    
     overflow: hidden;
 }
 
@@ -118,6 +119,7 @@ body{
         padding-bottom: 15px;
     }
 }
+
 @media only screen and (max-width: 600px){
     #home h1{
         padding-top: 50%;
@@ -125,25 +127,48 @@ body{
         text-align: center;
         overflow: hidden;
     }
-}
-@media only screen and (max-width: 380px){
-    #home{
-        height: 80vh;
-    }
-
-    #home h1{
-        padding-top: 80%;
-        text-align: center;
-
-    }
 
     #about{
         height: 150vh;
     }
 
+    #contacts{
+        height: 25vh;
+    }
+
+    #contacts #contents{
+        padding-top: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width: 380px){
+    #home{
+        height: 100vh;
+    }
+
+    #home h1{
+        padding-top: 70%;
+        text-align: center;
+
+    }
+
+    #about{
+        height: 210vh;
+    }
+
     #about #card{
         padding-top: 60px;
         padding-bottom: 40px;
+    }
+
+    #contacts{
+        height: 150px;
+    }
+
+    #contacts #contents{
+        padding-top: 20px;
     }
 }
 
