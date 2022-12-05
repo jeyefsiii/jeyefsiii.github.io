@@ -21,15 +21,21 @@ body{
     padding: 0;
 }
 
+#home #content{
+    position: relative;
+    margin-top: 13%;
+    text-align: center;
+}
 
+#home #content img{
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
 
 #home h1{
     color: white;
     font-size: 60px;
-    text-align: center;
-    position: relative;
-    padding-top: 20%;
-    margin: auto;
     font-family: "Montserrat";
 }
 
@@ -45,7 +51,7 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 7.5%;
+    margin-top: 7.5%;
 }
 
 #about #container{
@@ -80,7 +86,7 @@ body{
     background-attachment: fixed;
     background-color: #041014;
     width: 100vw;
-    height: 15vh;
+    height: 17vh;
     margin: auto;
     position: relative;
 }
@@ -92,8 +98,8 @@ body{
     font-family: "Montserrat";
 }
 
-#contents{
-    
+#contacts #contents{
+
     overflow: hidden;
 }
 
@@ -103,72 +109,127 @@ body{
 }
 
 .link img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
-@media only screen and (max-width: 1024px){
-    #home h1{
-      position: relative;
-      text-align: center;
-      padding-top: 30%;  
-      font-size: 35px;
+@media only screen and (max-width: 1920px){
+    #contacts #contents{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    #about{
+        height: 150vh;
     }
 
     #contacts #contents{
-        padding-bottom: 15px;
+        margin-top: 25px;
     }
 }
 
-@media only screen and (max-width: 600px){
-    #home h1{
-        padding-top: 50%;
-        font-size: 25px;
-        text-align: center;
-        overflow: hidden;
+@media only screen and (max-width: 1280px){
+
+   #about #container .skills img{
+    height: 50px;
+    width: 50px;
+   } 
+
+   #contacts #contents{
+    margin-top: 25px;
+   }
+
+   #contacts .link img{
+    height: 50px;
+    width: 50px;
+   }
+}
+
+@media only screen and (max-width: 1024px){
+
+    #home #content{
+        margin-top: 15%;
     }
 
     #about{
         height: 150vh;
     }
 
+    #about #container .skills img{
+        height: 60px;
+        width: 60px;
+    }
+
     #contacts{
-        height: 25vh;
+        height: 120px;
     }
 
     #contacts #contents{
-        padding-top: 30px;
+        margin-top: 25px;
     }
 }
 
+@media only screen and (max-width: 600px){
 
+    #home{
+        height: 110vh;
+    }
+
+    #home #content{
+        margin-top: 25%;
+    }
+
+    #home h1{
+        font-size: 50px;
+    }
+
+    #about{
+        height: 150vh;
+    }
+
+    #about #container .skills img{
+        height: 50px;
+        width: 50px;
+    }
+
+    #contacts{
+        height: 15vh;
+    }
+
+    #contacts #contents{
+        margin-top: 25px;
+    }
+}
 
 @media only screen and (max-width: 380px){
     #home{
         height: 100vh;
     }
 
-    #home h1{
-        padding-top: 70%;
-        text-align: center;
+    #home #content{
+        margin-top: 30%;
+    }
 
+    #home h1{
+        font-size: 40px;
     }
 
     #about{
-        height: 210vh;
+        height: 130vh;
     }
 
     #about #card{
-        padding-top: 60px;
-        padding-bottom: 40px;
+        margin-top: 60px;
+        margin-bottom: 40px;
     }
 
     #contacts{
-        height: 150px;
+        height: 100px;
     }
 
     #contacts #contents{
-        padding-top: 20px;
+        margin-top: 15px;
     }
 }
 
