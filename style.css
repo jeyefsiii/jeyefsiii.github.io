@@ -92,6 +92,25 @@ body{
     display: inline-block;
 }
 
+#projects{
+    width: 100vw;
+    height: 50vh;
+}
+
+#projects #box{
+    padding: 56px 50px;
+    width: 50%;
+    margin: auto;
+    background-color: #15151575;
+    color: white;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#projects #box #contents{
+    font-family: monospace;
+}
+
 #contacts{
     background-color: #041014;
     width: 100vw;
@@ -136,7 +155,7 @@ body{
 
 @media only screen and (max-width: 1366px){
     #about{
-        height: 150vh;
+        height: 120vh;
     }
 
     #contacts #contents{
@@ -168,7 +187,7 @@ body{
     }
 
     #about{
-        height: 150vh;
+        height: 120vh;
     }
 
     #about #container .skills img{
@@ -200,7 +219,7 @@ body{
     }
 
     #about{
-        height: 150vh;
+        height: 120vh;
     }
 
     #about #container .skills img{
