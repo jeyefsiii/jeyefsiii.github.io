@@ -109,8 +109,14 @@ body{
 }
 
 #contacts #contents{
-
     overflow: hidden;
+}
+
+#footer{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    background-color: black;
 }
 
 .link{
