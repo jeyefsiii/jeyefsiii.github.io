@@ -16,6 +16,11 @@ body{
     height: 100vh;
 }
 
+
+
+
+
+
 #home{
     width: 100vw;
     height: 100vh;
@@ -43,6 +48,9 @@ body{
     font-family: 'Montserrat';
     font-weight: 900;
 }
+
+
+
 
 
 #about{
@@ -92,14 +100,18 @@ body{
     display: inline-block;
 }
 
+
+
+
+
 #projects{
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
 }
 
 #projects #box{
     padding: 56px 50px;
-    width: 50%;
+    width: 55%;
     margin: auto;
     background-color: #15151575;
     color: white;
@@ -110,6 +122,28 @@ body{
 #projects #box #contents{
     font-family: monospace;
 }
+
+#list1{
+    text-align: center;
+    font-family: monospace;
+}
+
+#list1 img{
+    width: 200px;
+    height: 150px;
+}
+
+#list1 p{
+    font-size: large;
+}
+
+#list1 span{
+    color: aqua;
+}
+
+
+
+
 
 #contacts{
     background-color: #041014;
@@ -147,6 +181,11 @@ body{
     height: 60px;
 }
 
+
+
+
+
+
 @media only screen and (max-width: 1920px){
     #contacts #contents{
         margin-top: 40px;
@@ -160,6 +199,11 @@ body{
 
     #contacts #contents{
         margin-top: 25px;
+    }
+
+    #projects{
+        width: 100vw;
+        height: 100vh;
     }
 }
 
