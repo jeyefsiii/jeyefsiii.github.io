@@ -31,7 +31,10 @@ body{
 #home #content{
     position: relative;
     margin-top: 13%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 #home #content img{
@@ -40,6 +43,8 @@ body{
     height: 200px;
     width: 200px;
     color: white;
+    display: block;
+    margin: auto;
 }
 
 #home h1{
@@ -47,6 +52,7 @@ body{
     font-size: 60px;
     font-family: 'Montserrat';
     font-weight: 900;
+    text-align: center;
 }
 
 
@@ -75,6 +81,8 @@ body{
     color: white;
     border-style: solid;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 #about #container h1{
@@ -111,30 +119,48 @@ body{
 
 #projects #box{
     padding: 56px 50px;
-    width: 55%;
+    width: 50%;
     margin: auto;
     background-color: #15151575;
     color: white;
     border-style: solid;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 #projects #box #contents{
     font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#p-list{
+    width: 100%;
 }
 
 #list1{
-    text-align: center;
     font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #list1 img{
-    width: 200px;
-    height: 150px;
+    width: 180px;
+    height: 130px;
+    display: flex;
+    margin: auto;
+}
+
+#list1 h1{
+    font-size: 170%;
+    text-align: center;
 }
 
 #list1 p{
-    font-size: large;
+    font-size: 100%;
 }
 
 #list1 span{
@@ -151,6 +177,13 @@ body{
     height: 17vh;
     margin: auto;
     position: relative;
+}
+
+#contacts #contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
 }
 
 #contacts #neym{
@@ -280,7 +313,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 320px){
     #home{
         height: 100vh;
     }
@@ -294,12 +327,17 @@ body{
     }
 
     #about{
-        height: 130vh;
+        height: 150vh;
     }
 
     #about #card{
         margin-top: 60px;
         margin-bottom: 40px;
+    }
+
+    #projects #list1 img{
+        height: 80px;
+        width: 100px;
     }
 
     #contacts{
