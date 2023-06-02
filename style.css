@@ -97,11 +97,11 @@ body{
     font-size: 20px;
 }
 
-#about #container .skills{
+#about #container #skills{
     text-align: center;
 }
 
-#about #container .skills img{
+#about #container #skills img{
     width: 60px;
     height: 60px;
     margin: 0;
@@ -133,7 +133,7 @@ body{
     font-family: monospace;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #p-list{
@@ -145,25 +145,26 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: aqua;
 }
 
 #list1 img{
-    width: 180px;
-    height: 130px;
+    width: 220px;
+    height: 220px;
     display: flex;
     margin: auto;
 }
 
-#list1 h1{
+#p-list h1{
     font-size: 170%;
     text-align: center;
 }
 
-#list1 p{
+#p-list p{
     font-size: 100%;
 }
 
-#list1 span{
+#p-list span{
     color: aqua;
 }
 
@@ -204,12 +205,13 @@ body{
     background-color: black;
 }
 
-.link{
+#link{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.link img{
+#link img{
     width: 60px;
     height: 60px;
 }
@@ -242,7 +244,7 @@ body{
 
 @media only screen and (max-width: 1280px){
 
-   #about #container .skills img{
+   #about #container #skills img{
     height: 50px;
     width: 50px;
    } 
@@ -251,7 +253,7 @@ body{
     margin-top: 25px;
    }
 
-   #contacts .link img{
+   #contacts #link img{
     height: 50px;
     width: 50px;
    }
@@ -267,7 +269,7 @@ body{
         height: 120vh;
     }
 
-    #about #container .skills img{
+    #about #container #skills img{
         height: 60px;
         width: 60px;
     }
@@ -299,7 +301,7 @@ body{
         height: 120vh;
     }
 
-    #about #container .skills img{
+    #about #container #skills img{
         height: 50px;
         width: 50px;
     }
