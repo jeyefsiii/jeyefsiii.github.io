@@ -1,248 +1,286 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-*{
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-body{
-    background-image: url('./photos/portfolio.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
+body {
+  background-image: url("./photos/portfolio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
 }
 
-#portfolio-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 200px;
+#portfolio-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 200px;
 }
 
-#home{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#home img{
-    border-style: solid;
-    border-radius: 200px;
-    height: 200px;
-    width: 200px;
-    color: white;
-    display: block;
-    margin: auto;
+#home img {
+  border-style: solid;
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+  color: white;
+  display: block;
+  margin: auto;
 }
 
-#home h1{
-    color: white;
-    font-size: 6vh;
-    font-family: 'Montserrat';
-    font-weight: 900;
-    text-align: center;
+#home h1 {
+  color: white;
+  font-size: 6vh;
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
 }
 
-#about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#about-card{
-    padding: 56px 50px;
-    width: 50%;
-    margin: auto;
-    background-color: #15151575;
-    color: white;
-    border-style: solid;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
+#about-card {
+  padding: 56px 50px;
+  width: 50%;
+  margin: auto;
+  background-color: #15151575;
+  color: white;
+  border-style: solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
-#card-content h1{
-    font-size: 2.2vh;
-    font-family: monospace;
-    color: white;
-    text-align: center;
+#card-content h1 {
+  font-size: 2.2vh;
+  font-family: monospace;
+  color: white;
+  text-align: center;
 }
 
-#about-me p{
-    font-family: monospace;
-    font-size: 2vh;
+#about-me p {
+  font-family: monospace;
+  font-size: 2vh;
 }
 
-#skills{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+#skills {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-#skills-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#skills-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#skills-img img{
-    width: 60px;
-    height: 60px;
+#skills-img img {
+  width: 60px;
+  height: 60px;
 }
 
-#projects{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-#projects-card{
-    padding: 56px 50px;
-    width: 50%;
-    margin: auto;
-    background-color: #15151575;
-    color: white;
-    border-style: solid;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
+#projects-card {
+  padding: 56px 50px;
+  width: 50%;
+  margin: auto;
+  background-color: #15151575;
+  color: white;
+  border-style: solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
-#projects-card h1{
-    font-size: 2.2vh;
-    font-family: monospace;
-    color: white;
-    text-align: center;
+#projects-card h1 {
+  font-size: 2.2vh;
+  font-family: monospace;
+  color: white;
+  text-align: center;
 }
 
-#project-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#project-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    width: 100%;
-    margin-top: 50px;
+  width: 100%;
+  margin-top: 50px;
+  gap: 50px;
 }
 
-#project-img{
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-    width: 300px;
+#project-list-content {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
 }
 
-#project-img img{
-    width: 220px;
-    height: 220px;
+#project-name {
+  padding: 8px;
 }
 
-#project-description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#project-img {
+  display: flex;
+  justify-content: center;
+  width: 300px;
 }
 
-#project-description p{
-    font-size: 1.6vh;
-    font-family: monospace;
-    text-align: center;
+#project-img img {
+  width: 300px;
+  height: 220px;
 }
 
-#project-description span{
-    color: aqua;
+#project-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#project-description a{
-    color: aqua;
-    font-size: 1.6vh;
-    font-family: monospace;
+#project-profile p {
+  font-size: 1.6vh;
+  font-family: monospace;
+  text-align: center;
 }
 
-#contacts{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#project-profile span {
+  color: aqua;
 }
 
-#contacts-card{
-    width: 100vw;
-    background-color: #041014;
-    height: 120px;
+#project-profile a {
+  font-size: 1.6vh;
+  font-family: monospace;
 }
 
-#contacts-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
+#repo-button {
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
 }
 
-#contacts-header h1{
-    font-size: 1.6vh;
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat';
+#website-button {
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
 }
 
-#contact-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#repo-button a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 6px;
 }
 
-#contact-link img{
-    width: 60px;
-    height: 60px;
+#website-button a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 6px;
 }
 
-#footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#footer-container{
-    background-color: black;
-    width: 100vw;
+#contacts-card {
+  width: 100vw;
+  background-color: #041014;
+  height: 120px;
 }
 
-#footer-content{
-    text-align: center;
-    font-family: monospace;
-    color: white;
+#contacts-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+#contacts-header h1 {
+  font-size: 1.6vh;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+}
+
+#contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-link img {
+  width: 60px;
+  height: 60px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-container {
+  background-color: black;
+  width: 100vw;
+}
+
+#footer-content {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+}
+
+#DICT {
+  width: 300px;
 }
 
 @media only screen and (max-width: 480px) {
+  #home img {
+    height: 130px;
+    width: 130px;
+  }
 
-    #home img{
-        height: 130px;
-        width: 130px;
-    }
+  #skills-img img {
+    height: 30px;
+    width: 30px;
+  }
 
-    #skills-img img{
-        height: 30px;
-        width: 30px;
-    }
+  #project-img img {
+    height: 110px;
+    width: 110px;
+  }
 
-    #project-img img{
-        height: 110px;
-        width: 110px;
-    }
-
-    #contact-link img{
-        height: 50px;
-        width: 50px;
-    }
+  #contact-link img {
+    height: 50px;
+    width: 50px;
+  }
 }
