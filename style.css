@@ -319,7 +319,7 @@ body {
   }
 
   #projects-card {
-    padding: 10px;
+    width: 50%;
   }
 
   #project-description {
